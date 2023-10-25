@@ -47,6 +47,8 @@ let verificationCode = generateVerificationCode();
 
 
 
+
+
 // معالج تسجيل حساب جديد
 app.post("/register", async (req, res)=>{
   try {
@@ -168,9 +170,6 @@ app.post("/login", async (req, res) => {
         const FirstName = result[0].FirstName;
         const FatherName = result[0].FatherName;
         const passwordMatch = await bcrypt.compare(password, result[0].Password);
-
-        console.log(FirstName, FatherName);
-
 
         if (passwordMatch) {
           // res.status(200).send("Logged in successfully!");
