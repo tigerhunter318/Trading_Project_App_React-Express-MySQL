@@ -43,30 +43,6 @@ let verificationCode = generateVerificationCode();
 
 
 
-// معالج تسجيل حساب  للمشرف للوحة التحكم
-app.post("/regst", async (req, res)=>{
-  try {
-    const { username, password } = req.body;
-      let passwordHash = await bcrypt.hash(password, 10);
-      
-      const sqlQuery = "INSERT INTO admin_login (username, password) VALUES (?, ?)";
-      database.query(sqlQuery, [username, passwordHash], (err, result) => {
-          if (err) {
-            console.log(err);
-            res.status(500).send("Error adding new user!");
-          } else {
-            console.log("New user added successfully!", result);
-            res.status(201).send("New user added successfully!");
-          }
-        });
-
-  } catch (err) { 
-    res.status(500).send({ message: err.message })
-  }
-});
-
-
-
 
 // معالج تسجيل حساب جديد
 app.post("/register", async (req, res)=>{
