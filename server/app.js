@@ -46,9 +46,6 @@ let verificationCode = generateVerificationCode();
 
 
 
-
-
-
 // معالج تسجيل حساب جديد
 app.post("/register", async (req, res)=>{
   try {
