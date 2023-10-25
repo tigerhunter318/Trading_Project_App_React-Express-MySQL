@@ -1,0 +1,111 @@
+
+.navbar {
+    height: 70.5px;
+    background-color: #181a1b;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 0.6px solid #ddd;
+  }
+
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .navbar .links {
+    /* margin-left: auto; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: #fff;
+    font-weight: 500;
+  }
+  .navbar a:hover {
+    color: #f2062f;
+  }
+  .content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btnSignUp {
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: #f2062f;
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+  .btnSignUp .arrowWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btnSignUp .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: #f2062f;
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .btnSignUp .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .btnSignUp:hover {
+    background-color: #b8001f;
+  }
+  
+  .btnSignUp:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .btnSignUp:hover .arrow:before {
+    right: 0;
+  }

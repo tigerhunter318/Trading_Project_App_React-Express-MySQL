@@ -1,0 +1,92 @@
+/* CSS of Box Content */
+
+.boxContent
+{
+    padding: 70px 30px;
+}
+
+/* CSS of Second Row */
+
+.secondRow
+{
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px; */
+}
+
+.cardCharty {
+  /* width: 70%; */
+  width: 400px;
+  padding: 20px;
+  margin-right: 15px;
+  background-color: #181a1b;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0px 0px 30px -18px rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  gap: 10px;
+} 
+
+/* CSS of Third Row */
+
+.thirdRow
+{
+    padding: 30px;
+    width: 100%;
+    background-color: #181a1b;
+    box-shadow: 0px 0px 30px -18px rgba(0, 0, 0, 0.55);
+    margin-top: 50px;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+/* TransactionTable.css */
+
+.tableContainer {
+    margin: 30px;
+    border: 1px solid #3e4446;
+    border-radius: 7px;
+    overflow: hidden;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+  
+  .customTable {
+    width: 100%;
+    color: white;
+    border-collapse: collapse;
+  }
+
+  .customTable th {
+    background-color: #686868c1;
+    font-weight: bold;
+  }
+  
+  .customTable th, .customTable td {
+    border: 1px solid #747b7e;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .customTable tbody tr:nth-child(even) {
+    background-color: #1f2223; 
+  }
+  
+  .customTable tbody tr:nth-child(odd) {
+    background-color: #181a1b;
+  }
+  
+ .customTable td {
+    font-weight: bold;
+    font-weight: normal;
+  }
+
+

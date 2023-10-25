@@ -1,0 +1,108 @@
+:root
+{
+    --color-white: white;
+    --color-black: black;
+    --color-grey: #CECECE;
+    --color-primary: #7385F2;
+}
+
+/* CSS of First Row */
+
+
+.cardChartx {
+    /* width: 70%; */
+    width: 750px;
+    height: 468px;
+    margin-right: 15px;
+    background-color: #181a1b;
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 30px -18px rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .firstRow
+{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #CECECE;
+} */
+
+.cardOne, .cardTwo, .cardThree, .cardFour
+{
+    height: 200px;
+    width: 350px;
+    border-radius: 7px;
+    /*margin-right: 15px;
+    */
+    /* position: relative; */
+ 
+}
+
+.mycard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1e2021;
+    border: 0.2px  solid #4d4c4c;
+}
+.mycard:hover {
+    border: 0.5px  solid #868686;
+}
+
+.customStyleSvg {
+    width: 30px;
+}
+
+
+.svg {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg1 {
+    background: linear-gradient(90deg,#9862F9, #8AAAFE);
+}
+
+.svg2 {
+    background: linear-gradient(90deg,#f59893, #f15380);
+}
+
+.svg3 {
+    background: linear-gradient(90deg,#FFC88B, #FF914E);
+}
+
+.svg4 {
+    background: linear-gradient(90deg,#106DFE, #729FFE);
+}
+
+.description
+{
+    text-align: center;
+    color: var(--color-white);
+}
+
+.description span
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.description p {
+    margin-top: 10px;
+    color: #919191;
+}

@@ -1,0 +1,341 @@
+.dashboard {
+    min-height: 100vh;
+    color: #c2e4ff;
+    /* background-color: #181a1b; */
+    background: -o-linear-gradient(315deg, #8175fe, #89befe);
+	background: linear-gradient(135deg, #8175fe, #89befe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.h1 {
+    margin: 20px auto;
+    color: #221e27;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-bottom: #221e27 solid 5px;
+    border-top: #221e27 solid 5px;
+    padding: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container {
+    width: 1200px;
+    height: fit-content;
+    padding: 30px;
+    margin: 10px;
+    background-color: #262a2b;
+    text-align: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+/* =========== Style Table ============*/
+
+.adminContainer {
+    width: 1000px;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+    margin: 30px auto;
+    border: #f2f2f2 solid 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    margin: 35px auto;
+    color: bisque;
+    border: 1px solid bisque;
+    width: 400px;
+    height: 50px;
+    padding: 30px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr {
+    margin: 30px auto;
+}
+
+.adminTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .adminTable th, .adminTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+
+  .stickyHeader {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    z-index: 1;
+  }
+  
+  
+  .adminTable th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .adminTable tr:nth-child(even) {
+    background-color: #454a4d;
+  }
+  
+  .adminTable tr:hover {
+    background-color: #565a5c;
+  }
+  
+  .adminTable button {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+
+.acceptBtn {
+    background-color: #4CAF50;
+  }
+  
+  .acceptBtn:hover {
+    background-color: #43af48;
+  }
+  
+.rejectBtn {
+    background-color: #aa3e36;
+  }
+
+.rejectBtn:hover {
+    background-color: #b32d23;
+  }
+  
+
+
+.Accepted {
+  color: greenyellow;
+  font-weight: 900;
+}
+.Rejected {
+  color: red;
+  font-weight: 900;
+}
+
+  .btn {
+    padding: 0.1em 0.25em;
+    margin: 20px auto;
+    width: 21em;
+    cursor: pointer;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+  }
+  
+  .btn span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 13.6em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  }
+  
+  .btn span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  .btn span:not(hover) {
+    transition: all 1s;
+  }
+  
+  
+  
+  /*================= toggle  ==================*/
+
+  .featuresBox {
+    border: 3px solid #c2e4ff;
+    width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  .ul {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .ul li {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .input[type="checkbox"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	cursor: pointer;
+	outline: none;
+    margin: 0;
+	height: 5.6em;
+	width: 12.5em;
+	background-color: #000000;
+	-webkit-transform: skewX(-7deg);
+	-ms-transform: skewX(-7deg);
+	transform: skewX(-7deg);
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.input[type="checkbox"]:before {
+	font-size: 1.5em;
+	content: "OFF";
+	position: absolute;
+	width: 3.75em;
+	height: 2.9em;
+	background-color: #2d2936;
+	color: #a0a0a0;
+	top: 0.42em;
+	left: 0.42em;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.input[type="checkbox"]:checked {
+	background: -o-linear-gradient(315deg, #8175fe, #89befe);
+	background: linear-gradient(135deg, #8175fe, #89befe);
+}
+.input[type="checkbox"]:checked:before {
+	content: "ON";
+	left: 4.1em;
+	color: #89befe;
+}
+
+
+.classic1 {
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 25px;
+  animation:c1 1s linear infinite alternate;
+}
+@keyframes c1 {to{opacity: 0}}
+
+
+/* Button Delete */
+
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  padding: 1em;
+  border: 0px solid transparent;
+  background-color: rgba(100,77,237,0.08);
+  border-radius: 1.25em;
+  transition: all 0.2s linear;
+ }
+ 
+ .button:hover {
+  box-shadow: 3.4px 2.5px 4.9px rgba(0, 0, 0, 0.025),
+   8.6px 6.3px 12.4px rgba(0, 0, 0, 0.035),
+   17.5px 12.8px 25.3px rgba(0, 0, 0, 0.045),
+   36.1px 26.3px 52.2px rgba(0, 0, 0, 0.055),
+   99px 72px 143px rgba(0, 0, 0, 0.08);
+ }
+ 
+ .tooltip {
+  position: relative;
+  display: inline-block;
+ }
+ 
+ .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 4em;
+  background-color: rgba(0, 0, 0, 0.253);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 110%;
+ }
+ 
+ .tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent rgba(0, 0, 0, 0.253) transparent transparent;
+ }
+ 
+ .tooltip:hover .tooltiptext {
+  visibility: visible;
+ }
+
+

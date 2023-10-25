@@ -1,0 +1,54 @@
+
+/* CSS of NavBar */
+
+.nav
+{
+    height: 70px;
+    background-color: #181a1b;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    z-index: 1;
+}
+.boxUser {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  min-width: 199px;
+  max-width: 250px;
+  color: aliceblue;
+  justify-content: space-around;
+}
+
+.user
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.btnHome {
+  background-color: #c20526;
+  border: none;
+  padding: 9px 13px;
+  color: white;
+  cursor: pointer;
+  margin-right: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+

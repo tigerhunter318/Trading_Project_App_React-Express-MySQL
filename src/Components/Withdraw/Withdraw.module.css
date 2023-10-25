@@ -1,0 +1,45 @@
+
+/* CSS of Side Barre */
+
+.sideBarre
+{
+    width: 260px;
+    height: 120vh;
+    background-color: #1e2021;
+    /* border: 1px solid var(--color-grey); */
+    position: fixed;
+}
+
+/* CSS of Main Content */
+
+.mainContent
+{
+    background-color: #1e2021;
+    min-height: 100px;
+    margin-left: 260px;
+}
+
+.boxdad {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.boxError {
+    margin: 20px auto;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: rgb(36, 27, 0);
+    font-weight: bold;
+    background-color: #aa941485;
+    border: 2px solid #ffd417;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
