@@ -1,0 +1,113 @@
+.sideBarre
+{
+    width: 260px;
+    height: 120vh;
+    background-color: #1e2021;
+    position: fixed;
+}
+
+.mainContent
+{
+    background-color: #1e2021;
+    min-height: 100px;
+    margin-left: 260px;
+}
+
+/* ================================== */
+
+.boxcont {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.boxPaymentPreview  {
+    margin: 20px auto;
+    width: 694px;
+    height: fit-content;
+    background-color: #131516;
+    padding: 20px;
+    color: #e8e6e3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.boxPaymentPreview  h2 {
+    margin-bottom: 20px;
+}
+
+.tableContainer {
+    margin: 30px;
+    border: 1px solid #3e4446;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .customTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customTable th, .customTable td {
+    border: 1px solid #3e4446;
+    padding: 8px;
+    text-align: start;
+  }
+
+  .customTable tbody tr:nth-child(even) {
+    background-color: #1f2223; 
+  }
+  
+  .customTable tbody tr:nth-child(odd) {
+    background-color: #181a1b;
+  }
+  
+ .customTable td {
+    font-weight: bold;
+    font-weight: normal;
+  }
+
+  .boxPaymentPreview .boxApply {
+    text-align: end;
+    padding: 10px;
+  }
+
+  .boxPaymentPreview .boxApply  button {
+    border: none;
+    margin-top: 15px;
+    background-color: #c20526;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 169px;
+    height: 51px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.boxError {
+  margin: 20px auto;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  background-color: #c2052542;
+  border: 1px solid rgb(150, 5, 5);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.error {
+  color: red;
+}

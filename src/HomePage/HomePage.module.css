@@ -1,0 +1,37 @@
+
+/* Declaration de variables en CSS */
+:root
+{
+    --color-white: white;
+    --color-black: black;
+    --color-grey: #CECECE;
+    --color-primary: #7385F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CSS of Side Barre */
+
+.sideBarre{
+    width: 260px;
+    height: 120vh;
+    background-color: #1e2021;
+    position: fixed;
+}
+
+/* CSS of Main Content */
+
+.mainContent {
+    background-color: #1e2021;
+    min-height: 100px;
+    margin-left: 260px;
+}

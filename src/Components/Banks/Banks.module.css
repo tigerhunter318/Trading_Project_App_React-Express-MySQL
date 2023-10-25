@@ -1,0 +1,129 @@
+.BoxPaymentMethod {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px;
+    width: 181px;
+    height: 270px;
+    background-color: white;
+    outline: 0.5px solid #ddd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.BoxPaymentMethod img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.BoxPaymentMethod button {
+    width: 151px;
+    height: 35px;
+    background-color: #f2062f;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 10px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+/* ===================================== */
+
+.modal h2 {
+  margin-bottom: 10px;
+}
+
+.formGroup {
+    margin-bottom: 10px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .formGroup label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .formGroup input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .boxBtn {
+    display: flex;
+    align-items: center;
+  }
+
+  .btnDeposit {
+    width: 140px;
+    height: 35px;
+    background-color: #f2062f;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 10px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btnClose {
+    width: 140px;
+    height: 35px;
+    background-color: #8b8b8b;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 10px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: small;
+  margin-top: 5px;
+}
+
+.boxError {
+  margin: 20px auto;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  color: rgb(36, 27, 0);
+  font-weight: bold;
+  background-color: #aa941485;
+  border: 2px solid #ffd417;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

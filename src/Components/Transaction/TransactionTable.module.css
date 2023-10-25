@@ -1,0 +1,116 @@
+
+/* TransactionTable.css */
+
+.tableContainer {
+    border: 1px solid #3e4446;
+    border-radius: 7px;
+    overflow: hidden;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+
+    width: 1000px;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+    margin: 30px auto;
+    border: #f2f2f2 solid 1px;
+    display: flex;
+    flex-direction: column;
+}
+  
+  .customTable {
+    width: 100%;
+    color: white;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .customTable th {
+    background-color: #686868c1;
+    font-weight: bold;
+  }
+  
+  .customTable th, .customTable td {
+    border: 1px solid #747b7e;
+    padding: 11px;
+    text-align: center;
+  }
+
+  .stickyHeader {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    z-index: 1;
+  }
+
+  .customTable tbody tr:nth-child(even) {
+    background-color: #1f2223; 
+  }
+  
+  .customTable tbody tr:nth-child(odd) {
+    background-color: #181a1b;
+  }
+  
+ .customTable td {
+    font-weight: bold;
+    font-weight: normal;
+  }
+
+  .loading {
+    font-family: sans-serif;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 19px;
+    animation:c1 1s linear infinite alternate;
+  }
+  @keyframes c1 {to{opacity: 0}}
+
+  .notFound {
+    font-weight: 900;
+    color: #ddd;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .button {
+    font-family: inherit;
+    border: none;
+    outline: 1px dotted rgb(37, 37, 37);
+    outline-offset: -4px;
+    background: hsl(0deg 0% 75%);
+    box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 18px;
+  }
+  
+  .button:active {
+    box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+  }
+
+.processing,
+.Accepted, 
+.Rejected {
+    border-radius: 20px;
+    width: 83px;
+    height: 23px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: small;
+    color: white;
+}
+
+.processing { background-color: orange; }
+
+.Accepted { background-color: rgb(134, 218, 9); }
+
+.Rejected { background-color: red; }
+
+

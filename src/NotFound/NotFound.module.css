@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.pageError {
+  overflow:hidden;
+  background-color: #1b1d1e;
+}
+
+.container{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left:6vmin;
+  text-align: center;
+}
+
+.cogWheel1, .cogWheel2{
+  transform:scale(0.7);
+}
+
+.cog1, .cog2{
+  width:40vmin;
+  height:40vmin;
+  border-radius:50%;
+  border:6vmin solid #f3c623;
+  position: relative;
+}
+
+
+.cog2{
+  border:6vmin solid #4f8a8b;
+}
+
+.top, .down, .left, .right, .leftTop, .leftDown, .rightTop, .rightDown{
+  width:10vmin;
+  height:10vmin;
+  background-color: #f3c623;
+  position: absolute;
+}
+
+.cog2 .top,.cog2  .down,.cog2  .left,.cog2  .right,.cog2  .leftTop,.cog2  .leftDown,.cog2  .rightTop,.cog2  .rightDown{
+  background-color: #4f8a8b;
+}
+
+.top{
+  top:-14vmin;
+  left:9vmin;
+}
+
+.down{
+  bottom:-14vmin;
+  left:9vmin;
+}
+
+.left{
+  left:-14vmin;
+  top:9vmin;
+}
+
+.right{
+  right:-14vmin;
+  top:9vmin;
+}
+
+.leftTop{
+  transform:rotateZ(-45deg);
+  left:-8vmin;
+  top:-8vmin;
+}
+
+.leftDown{
+  transform:rotateZ(45deg);
+  left:-8vmin;
+  top:25vmin;
+}
+
+.rightTop{
+  transform:rotateZ(45deg);
+  right:-8vmin;
+  top:-8vmin;
+}
+
+.rightDown{
+  transform:rotateZ(-45deg);
+  right:-8vmin;
+  top:25vmin;
+}
+
+.cog2{
+  position: relative;
+  left:-10.2vmin;
+  bottom:10vmin;
+}
+
+h1{
+  color: bisque;
+}
+
+.firstFour{
+  position: relative;
+  left:6vmin;
+  font-size:40vmin;
+  color: bisque;
+}
+
+.secondFour{
+  position: relative;
+  right:18vmin;
+  z-index: -1;
+  font-size:40vmin;
+  color: bisque;
+}
+
+.wrongPara{
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  bottom:15vmin;
+  padding:3vmin 12vmin 3vmin 3vmin;
+  font-weight:600;
+  color:#fff;
+}
+.wrongPara a {
+    color:#3191ff;
+}

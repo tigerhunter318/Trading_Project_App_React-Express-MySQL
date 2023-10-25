@@ -1,0 +1,36 @@
+/* CSS of Side Barre */
+
+.sideBarre
+{
+    width: 260px;
+    height: 120vh;
+    background-color: #1e2021;
+    position: fixed;
+}
+
+/* CSS of Main Content */
+
+.mainContent
+{
+    background-color: #1e2021;
+    min-height: 100px;
+    margin-left: 260px;
+}
+
+.thirdRow
+{
+    padding: 30px;
+    width: 100%;
+    background-color: #181a1b;
+    box-shadow: 0px 0px 30px -18px rgba(0, 0, 0, 0.55);
+    margin-top: 50px;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.boxdad {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
