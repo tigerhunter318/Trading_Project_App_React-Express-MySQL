@@ -29,6 +29,7 @@ const database = mysql.createConnection({
       console.log(`Connected successfully to the database! ${resul}`);
   });
 
+
 // =========================================
 
 // إنشاء رمز تأكيد عشوائي من 4 أرقام
