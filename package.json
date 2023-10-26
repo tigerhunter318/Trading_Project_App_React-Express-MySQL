@@ -1,6 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "proxy": "https://trading-max.000webhostapp.com/",
+  "private":  false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
