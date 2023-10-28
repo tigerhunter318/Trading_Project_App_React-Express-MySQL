@@ -2,9 +2,8 @@
     "version": 2,
       "routes": [
         {
-          "src": "/(.*)",
+          "src": "/^(.*)$/",
           "dest": "https://trading-max-soufiane-amama.vercel.app/$1"
         }
       ]
   }
-  
