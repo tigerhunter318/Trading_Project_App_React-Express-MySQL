@@ -48,14 +48,13 @@
   }
   
   .btnSignUp {
-    --secondary-color: #fff;
     --hover-color: #111;
     --arrow-width: 10px;
     --arrow-stroke: 2px;
     box-sizing: border-box;
     border: 0;
     border-radius: 5px;
-    color: var(--secondary-color);
+    color: white;
     padding: 1em 1.8em;
     background: #f2062f;
     display: flex;
@@ -88,7 +87,7 @@
     content: "";
     box-sizing: border-box;
     position: absolute;
-    border: solid var(--secondary-color);
+    border: solid white;
     border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
     display: inline-block;
     top: -3px;
@@ -103,7 +102,7 @@
   }
   
   .btnSignUp:hover .arrow {
-    background: var(--secondary-color);
+    background: white;
   }
   
   .btnSignUp:hover .arrow:before {
