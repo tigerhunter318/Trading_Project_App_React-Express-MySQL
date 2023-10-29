@@ -13,7 +13,7 @@ import DataProvider from './context/DataContext';
 import Withdraw from './Components/Withdraw/Withdraw';
 import PaymentPreviewDeposit from './Components/PaymentPreview/PaymentPreviewDeposit';
 import PaymentPreviewWihdraw from './Components/PaymentPreview/PaymentPreviewWihdraw';
-import ControlBoard from './Dashboard/ControlBoard';
+import ControlBoard from './Dashboard/ControlBoard'; 
 
 
 
