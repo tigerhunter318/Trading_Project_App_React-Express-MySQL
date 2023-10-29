@@ -16,7 +16,6 @@ import PaymentPreviewWihdraw from './Components/PaymentPreview/PaymentPreviewWih
 import ControlBoard from './Dashboard/ControlBoard';
 
 
-
 function App() {
   return (
     <Router>
