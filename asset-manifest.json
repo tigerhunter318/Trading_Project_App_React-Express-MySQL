@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/css/main.6223f21f.css",
+    "main.js": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/js/main.011bd8a8.js",
+    "static/media/hero.png": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/hero.75d973a2c5ae391457fc.png",
+    "static/media/logo.png": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/logo.786eec2e0a8a9f6d2776.png",
+    "static/media/751-13.jpg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/751-13.43ba5be5e3ccd1760275.jpg",
+    "static/media/donation.svg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/donation.01a3388dc3e1f065e51b427b0ca00b5a.svg",
+    "static/media/stats.svg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/stats.1dd500e064b788c44d32a71b1bf5ef3e.svg",
+    "static/media/ticket.svg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/ticket.d7542b764443abb51c6455210ccb9bda.svg",
+    "static/media/rocket.svg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/rocket.c8e50ecdebe15ebda1cd44b60fe4aa53.svg",
+    "index.html": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/index.html",
+    "static/media/logout.svg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/logout.59a8e281a0b5f5fcf7aeeef9b8b83b98.svg",
+    "static/media/plus.svg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/plus.1a3c0791ff621f5e8e769c1c6b642509.svg",
+    "static/media/credit-card.svg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/credit-card.05031bf09b4e6931ef1a54052fd174d5.svg",
+    "static/media/minus.svg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/minus.c9bd93bb9af686ecd2f977199d1077bd.svg",
+    "static/media/Delete.svg": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/media/Delete.4ea34e52a36dad02f5a5d4ab1d45bb0c.svg",
+    "main.6223f21f.css.map": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/css/main.6223f21f.css.map",
+    "main.011bd8a8.js.map": "/Soufiane-Amama/Trading_Project-App-React-Express-MySQL/static/js/main.011bd8a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6223f21f.css",
+    "static/js/main.011bd8a8.js"
+  ]
+}
