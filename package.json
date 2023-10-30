@@ -1,8 +1,9 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "proxy": "https://trading-max-soufiane-amama.vercel.app/", 
-  "private":  true,
+  "proxy": "https://trading-max-soufiane-amama.vercel.app/",
+  "private": false,
+  "homepage": "https://github.com/Soufiane-Amama/Trading_Project-App-React-Express-MySQL",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -20,7 +21,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "now-build": "react-scripts build"
+    "now-build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
