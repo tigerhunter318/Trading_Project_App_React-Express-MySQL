@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "proxy": "https://trading-max-soufiane-amama.vercel.app/",
-  "private": false,
+  "private": true,
   "homepage": "https://github.com/Soufiane-Amama/Trading_Project-App-React-Express-MySQL",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
