@@ -3,7 +3,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "https://trading-max-soufiane-amama.vercel.app/$1"
+        "dest": "https://trading-project-app-react-express-my-sql.vercel.app/$1"
       }
     ]
   }
